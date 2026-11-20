@@ -1,0 +1,113 @@
+Desenvolva um dashboard interativo em HTML para análise de vendas de veículos Porsche, utilizando a base de dados disponibilizada em Excel.
+
+O projeto deve ter uma identidade visual inspirada no site oficial da Porsche Brasil: https://www.porsche.com/brazil/pt/
+
+O objetivo é criar uma experiência de análise de dados sofisticada, minimalista e profissional, com qualidade visual de um produto executivo de Business Intelligence.
+
+## 1. Identidade visual e design
+
+A aparência do dashboard deve transmitir luxo, exclusividade, esportividade e sofisticação, seguindo a identidade visual da Porsche.
+
+- Utilize uma imagem de um Porsche em destaque no topo da página, em formato de banner amplo (hero section).
+- A imagem deve ter qualidade cinematográfica, com iluminação elegante e composição visual marcante.
+- Sobreponha à imagem um título discreto e sofisticado, sem comprometer a fotografia.
+- Utilize principalmente preto, grafite, branco e tons neutros, com vermelho em pequenos detalhes.
+- Escolha uma tipografia moderna, elegante e de fácil leitura.
+- Trabalhe com bastante espaço em branco, alinhamento consistente e hierarquia visual clara.
+- Os indicadores devem ter destaque, mas sem utilizar cartões genéricos ou excesso de elementos decorativos.
+- Evite excesso de bordas, sombras, cores e divisões visuais.
+
+O resultado deve parecer um dashboard desenvolvido especialmente para a marca, e não um template genérico de BI.
+
+## 2. Estrutura do dashboard
+
+Organize a análise em quatro seções, seguindo uma narrativa inspirada nos princípios do livro *Storytelling with Data*.
+
+### 01. Performance comercial
+
+Apresente uma visão geral dos resultados de vendas.
+
+- Faturamento total.
+- Quantidade de vendas.
+- Ticket médio.
+- Top 5 vendedores por faturamento.
+- Top 5 compradores, considerando frequência de compra, faturamento total e ticket médio.
+- Evolução do faturamento ao longo dos meses.
+
+### 02. Clientes e mercado
+
+Apresente a distribuição geográfica das vendas.
+
+- Faturamento e quantidade de vendas por estado.
+- Distribuição das vendas por cidade.
+- Permita selecionar um estado para visualizar o detalhamento das cidades correspondentes.
+
+### 03. Produtos e valor
+
+Explore o desempenho comercial dos modelos Porsche.
+
+- Faturamento por modelo, com quantidade de vendas e ticket médio disponíveis nos tooltips.
+- Relação entre quilometragem e preço dos veículos, utilizando um gráfico de dispersão.
+- Destaque os modelos com maior participação no faturamento.
+
+### 04. Operação e pagamento
+
+Apresente informações sobre o processo de venda e os métodos de pagamento.
+
+- Status das entregas, considerando quantidade de veículos e valor associado a cada status.
+- Ticket médio por método de pagamento.
+- Participação de cada método de pagamento no faturamento total.
+
+## 3. Filtros e interatividade
+
+Disponibilize filtros globais para:
+
+- Período de vendas, com data inicial e final.
+- Estado.
+- Método de pagamento.
+- Status de entrega.
+
+Todos os indicadores e gráficos devem ser atualizados dinamicamente conforme os filtros selecionados.
+
+Inclua interações nos gráficos sempre que agregarem valor à análise, como seleção de estados, detalhamento de informações e tooltips com métricas complementares.
+
+## 4. Visualização e storytelling
+
+A construção dos gráficos deve seguir boas práticas de visualização de dados, utilizando como referência o livro *Storytelling with Data*.
+
+Priorize:
+
+- Gráficos adequados ao tipo de informação apresentada.
+- Comparações simples e intuitivas.
+- Destaque para os principais resultados.
+- Redução de elementos visuais desnecessários.
+- Consistência de cores e formatos.
+- Títulos objetivos e informativos.
+
+Evite textos explicativos desnecessários abaixo dos gráficos. Não inclua frases que ensinem o usuário a interpretar ou utilizar uma visualização, como "Compare receita, volume e ticket médio por modelo no tooltip".
+
+Mantenha somente os títulos, indicadores, filtros e informações que realmente contribuam para a análise. Os tooltips devem continuar disponíveis para apresentar detalhes dos dados.
+
+## 5. Requisitos técnicos
+
+- Desenvolva o dashboard em HTML, CSS e JavaScript.
+- Utilize bibliotecas de visualização interativa quando necessário.
+- Garanta que os filtros funcionem corretamente e atualizem todos os componentes relacionados.
+- Torne o dashboard responsivo para diferentes tamanhos de tela.
+- Mantenha o código organizado e estruturado.
+- Preserve a integridade dos dados da planilha.
+
+## 6. Cuidados com os dados
+
+- Utilize exclusivamente as informações presentes na base disponibilizada.
+- Não invente dados, valores ou indicadores.
+- Não calcule lucro ou margem, pois não existem informações de custos dos veículos.
+- Não presuma uma moeda específica caso ela não esteja identificada na base.
+- Trate valores ausentes ou datas inválidas adequadamente, sem comprometer os resultados.
+- Evite duplicidades ou agrupamentos incorretos nas análises.
+
+## Resultado esperado
+
+Um dashboard executivo de vendas Porsche com estética premium, fotografia de destaque no topo, visual minimalista e sofisticado, filtros interativos e análises comerciais relevantes.
+
+A experiência deve combinar a identidade visual da Porsche com a clareza analítica de um projeto profissional de Business Intelligence, sendo adequado para apresentação executiva e utilização em portfólio.
